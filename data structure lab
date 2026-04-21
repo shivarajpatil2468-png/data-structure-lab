@@ -1,0 +1,64 @@
+ #create a list of 5 number and print all element
+# Create a list of 5 numbers
+numbers = [10, 20, 30, 40, 50]
+
+# Print all elements
+for num in numbers:
+    print(num)
+
+
+#print first and last element of list [10,20,30,40,50].
+# Given list
+numbers = [10, 20, 30, 40, 50]
+
+# Print first element
+print("First element:", numbers[0])
+
+# Print last element
+print("Last element:", numbers[-1])
+
+#add number 100 to the lits[1,2,3,4].
+# Given list
+numbers = [1, 2, 3, 4]
+
+# Add 100
+numbers.append(100)
+
+# Print updated list
+print(numbers)
+
+
+  #remove element 3 from list [1,2,3,4,5]
+# Given list
+numbers = [1, 2, 3, 4, 5]
+
+# Remove element 3
+numbers.remove(3)
+
+# Print updated list
+print(numbers)
+
+
+
+  #find the sum of all element in{5,10,15,20]
+# Given list
+numbers = [5, 10, 15, 20]
+
+# Find sum
+total = sum(numbers)
+
+# Print result
+print("Sum of elements:", total)
+
+
+#find the maximum and minimum in [8,3,9,1,6].}
+# Given list
+numbers = [8, 3, 9, 1, 6]
+
+# Find max and min
+maximum = max(numbers)
+minimum = min(numbers)
+
+# Print results
+print("Maximum:", maximum)
+print("Minimum:", minimum)
